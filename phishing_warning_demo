@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>フィッシング警告</title>
+  <style>
+    body {
+      background-color: #fff3cd;
+      color: #856404;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .warning-box {
+      border: 2px solid #ffeeba;
+      background-color: #fff8e1;
+      padding: 30px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    h1 {
+      color: #d9534f;
+    }
+  </style>
+</head>
+<body>
+  <div class="warning-box">
+    <h1>⚠️ フィッシングメールにご注意ください ⚠️</h1>
+    <p>このページはセキュリティ教育のためのデモサイトです。</p>
+    <p>実際のフィッシングサイトにアクセスした場合、個人情報が盗まれる危険があります。</p>
+    <p>メールのリンクをクリックする前に、必ずURLを確認しましょう。</p>
+  </div>
+</body>
+</html>
