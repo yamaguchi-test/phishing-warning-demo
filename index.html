@@ -5,31 +5,60 @@
   <title>フィッシング警告</title>
   <style>
     body {
-      background-color: #fff3cd;
-      color: #856404;
-      font-family: sans-serif;
+      background-color: #fff8f8;
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
       text-align: center;
       padding: 50px;
     }
+
     .warning-box {
-      border: 2px solid #ffeeba;
-      background-color: #fff8e1;
+      border: 3px solid #ff4d4d;
+      background-color: #ffe6e6;
       padding: 30px;
       border-radius: 10px;
       display: inline-block;
+      max-width: 600px;
     }
+
     h1 {
-      color: #d9534f;
+      color: #d8000c;
+      font-size: 28px;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+
+    .alert-icon {
+      font-size: 50px;
+      color: #d8000c;
+    }
+
+    .button {
+      background-color: #ff4d4d;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .button:hover {
+      background-color: #cc0000;
     }
   </style>
 </head>
 <body>
   <div class="warning-box">
-    <h1>⚠️ フィッシングメール詐欺にご注意ください ⚠️</h1>
-    <p>このページはセキュリティ教育のためのデモサイトです。</p>
-    <p>実際のフィッシングサイトにアクセスした場合、個人情報が盗まれる危険があります。</p>
-    <p>リンク先をクリックする前に、必ず相手のアドレス、メール内容やURLを確認しましょう。</p>
-    <p>このホームページは閉じて問題ございません。＜社内SE_山口＞</p>
+    <div class="alert-icon">⚠️</div>
+    <h1>フィッシングの可能性があります</h1>
+    <p>このページは、あなたの個人情報を不正に取得しようとしている可能性があります。</p>
+    <p>直ちにこのページを閉じてください。</p>
+    <button class="button" onclick="window.close()">ページを閉じる</button>
   </div>
 </body>
 </html>
